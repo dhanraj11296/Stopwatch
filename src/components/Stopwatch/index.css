@@ -1,0 +1,52 @@
+.appContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.stopwatchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatch {
+  color: #333333;
+}
+.timerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 310px;
+  border-radius: 15px;
+}
+.timer {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  color: #333333;
+}
+.stopwatchTimer {
+  color: #333333;
+}
+.timerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.startButton {
+  background-color: #1db05f;
+}
+.stopButton {
+  background-color: #ef0d36;
+}
+.resetButton {
+  background-color: #eaa800;
+}
